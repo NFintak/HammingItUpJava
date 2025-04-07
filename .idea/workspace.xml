@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4458764f-cea5-4520-b9e0-019605c8de45" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HammingJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HammingJava.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/zipcode/Hamming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/zipcode/Hamming.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,6 +154,7 @@
   "keyToString": {
     "JUnit.HammingTest (1).executor": "Run",
     "JUnit.HammingTest.testValidatesFirstStrandNotLonger.executor": "Run",
+    "JUnit.HammingTest.testValidatesSecondStrandNotLonger.executor": "Run",
     "JUnit.zipcode in HammingJava.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -174,7 +173,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HammingTest.testValidatesFirstStrandNotLonger">
+  <component name="RunManager" selected="JUnit.HammingTest (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -245,6 +244,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HammingTest.testValidatesSecondStrandNotLonger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HammingJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zipcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zipcode" />
+      <option name="MAIN_CLASS_NAME" value="zipcode.HammingTest" />
+      <option name="METHOD_NAME" value="testValidatesSecondStrandNotLonger" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -278,9 +294,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HammingTest.testValidatesFirstStrandNotLonger" />
-        <item itemvalue="JUnit.zipcode in HammingJava" />
         <item itemvalue="JUnit.HammingTest (1)" />
+        <item itemvalue="JUnit.HammingTest.testValidatesFirstStrandNotLonger" />
+        <item itemvalue="JUnit.HammingTest.testValidatesSecondStrandNotLonger" />
+        <item itemvalue="JUnit.zipcode in HammingJava" />
         <item itemvalue="JUnit.HammingTest" />
       </list>
     </recent_temporary>

@@ -6,11 +6,14 @@ public class Hamming {
 
 
     public Hamming(String s, String s1) {
+        if (s.length() != s1.length()) {
+            throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
+        }
         this.str1 = s;
         this.str2 = s1;
     }
 
-    public int getHammingDistance() throws IllegalArgumentException {
+    public int getHammingDistance() {
         int counter = 0;
         try {
             if (this.str1.length() == this.str2.length()) {
@@ -20,12 +23,10 @@ public class Hamming {
                     }
                 }
             }
-            return counter;
         } catch (IllegalArgumentException e) {
-            //if (this.str1.length() != this.str2.length()) {
             throw new IllegalArgumentException("leftStrand and rightStrand must be of equal length.");
-            //}
         }
+        return counter;
     }
 
 }
